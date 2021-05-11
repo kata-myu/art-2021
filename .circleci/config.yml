@@ -36,7 +36,7 @@ jobs:
           command: bundle exec rails db:migrate
       - run:
           name: test
-          command: bundle exec rspec spec/models/art_spec.rb
+          command: bundle exec rspec spec/models/user_spec.rb
 
   # deploy:
   #   docker:
