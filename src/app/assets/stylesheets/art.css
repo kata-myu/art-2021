@@ -1,0 +1,56 @@
+img {
+  height: 500px;
+  width: 500px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.keyvisual {
+  margin-left: 320px;
+  margin-top: 50px;
+  width: 800px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+@media (max-width: 1024px) { 
+ 
+  .keyvisual {
+    margin-left: initial;
+    margin-top: initial;
+    width: initial;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+ }
+
+@media (max-width: 599px) { 
+  .keyvisual {
+    margin-left: initial;
+    margin-top: initial;
+    width: initial;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
